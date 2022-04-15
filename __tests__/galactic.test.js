@@ -5,7 +5,7 @@ describe ('SpaceAge', ()=> {
   let input;
 
   beforeEach(()=> {
-    input = new SpaceAge(40)
+    input = new SpaceAge(40, 80)
   });
 
   test('should determine the users age on Mercury', ()=> {
@@ -26,6 +26,11 @@ describe ('SpaceAge', ()=> {
   test('should determine the users age on Jupiter', ()=> {
     input.jupiterAge();
     expect(input.jupiter).toBeCloseTo(474.4);
+  });
+
+  test('should determine how many years the user has left to live on Mercury', ()=> {
+    input.mercuryExp();
+    expect(input.mercuryExp()).toEqual(9.6);
   });
 
 });
