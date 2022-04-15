@@ -44,4 +44,9 @@ describe ('SpaceAge', ()=> {
     expect(input.jupiterExp()).toBeCloseTo(474.4);
   });
 
+  test('should return the amount of years the user has lived past thier life expectency on Mercury', ()=> {
+    let input2 = new SpaceAge(80, 40);
+    expect(input2.mercuryExp()).toEqual(9.6);
+  });
+
 });
