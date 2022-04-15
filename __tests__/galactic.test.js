@@ -23,4 +23,9 @@ describe ('SpaceAge', ()=> {
     expect(input.mars).toBeCloseTo(75.2);
   });
 
+  test('should determine the users age on Jupiter', ()=> {
+    input.jupiterAge();
+    expect(input.jupiter).toBeCloseTo(474.4);
+  });
+
 });

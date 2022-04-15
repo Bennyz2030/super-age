@@ -4,6 +4,7 @@ export class SpaceAge {
     this.mercury = 0;
     this.venus = 0;
     this.mars = 0;
+    this.jupiter = 0;
   }
 
   mercuryAge() {
@@ -19,5 +20,9 @@ export class SpaceAge {
   marsAge() {
     this.mars = this.age * 1.88;
     return this.mars;
+  }
+
+  jupiterAge() {
+    
   }
 }
