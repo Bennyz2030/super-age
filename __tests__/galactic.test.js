@@ -18,4 +18,9 @@ describe ('SpaceAge', ()=> {
     expect(input.venus).toEqual(24.8);
   });
 
+  test('should determine the users age on Mars', ()=> {
+    input.marsAge();
+    expect(input.mars).toEqual(75.2);
+  });
+
 })
