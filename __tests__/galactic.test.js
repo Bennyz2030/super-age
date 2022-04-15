@@ -43,15 +43,23 @@ describe ('SpaceAge', ()=> {
   test('should determine how many years the user has left to live on Jupiter', ()=> {
     expect(input.jupiterExp()).toBeCloseTo(474.4);
   });
+});
+
+describe ('SpaceAge', ()=> {
+
+  let input;
+
+  beforeEach(()=> {
+    input = new SpaceAge(80, 40)
+  });
 
   test('should return the amount of years the user has lived past thier life expectency on Mercury', ()=> {
-    let input2 = new SpaceAge(80, 40);
-    expect(input2.mercuryExp()).toEqual(9.6);
+    expect(input.mercuryExp()).toEqual(9.6);
   });
 
   test('should return the amount of years the user has lived past thier life expectency on Venus', ()=> {
-    let input2 = new SpaceAge(80, 40);
-    expect(input2.venusExp()).toEqual(24.8);
+    expect(input.venusExp()).toEqual(24.8);
   });
+
 
 });
