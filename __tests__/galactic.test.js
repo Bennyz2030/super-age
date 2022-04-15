@@ -65,5 +65,9 @@ describe ('SpaceAge', ()=> {
     expect(input.marsExp()).toBeCloseTo(75.2);
   });
 
+  test('should return the amount of years the user has lived past thier life expectency on Jupiter', ()=> {
+    expect(input.jupiterExp()).toBeCloseTo(474.4);
+  });
+
 
 });
