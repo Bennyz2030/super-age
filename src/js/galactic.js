@@ -29,6 +29,8 @@ export class SpaceAge {
   }
 
   mercuryExp() {
-    
+    this.mercury = this.age * 0.24;
+    this.lifeExp = this.lifeExp * 0.24;
+    return this.lifeExp - this.mercury;
   }
 }

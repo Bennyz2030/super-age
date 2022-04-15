@@ -29,7 +29,6 @@ describe ('SpaceAge', ()=> {
   });
 
   test('should determine how many years the user has left to live on Mercury', ()=> {
-    input.mercuryExp();
     expect(input.mercuryExp()).toEqual(9.6);
   });
 
