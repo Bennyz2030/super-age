@@ -11,9 +11,7 @@ $(document).ready(function() {
     const userExp = parseInt($('#user-exp').val());
     const newInput = new SpaceAge(userAge, userExp);
     const mercAge = newInput.mercury;
-    // const mercExp = newInput.mercuryExp();
     const venusAge = newInput.venus;
-    // const venusExp = newInput.venusExp();
     const marsAge = newInput.mars;
     const jupiterAge = newInput.jupiter;
     $('#mercury').append(`<p>Your age on <strong>Mercury</strong> is ${mercAge} years</p>`);
