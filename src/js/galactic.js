@@ -39,4 +39,8 @@ export class SpaceAge {
     this.lifeExp = this.lifeExp * 0.62;
     return this.lifeExp - this.venus;
   }
+
+  marsExp() {
+    
+  }
 }

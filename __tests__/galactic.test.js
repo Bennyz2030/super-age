@@ -36,4 +36,8 @@ describe ('SpaceAge', ()=> {
     expect(input.venusExp()).toEqual(24.8);
   });
 
+  test('should determine how many years the user has left to live on Mars', ()=> {
+    expect(input.marsExp()).toBeCloseTo(75.2);
+  });
+
 });
