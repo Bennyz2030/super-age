@@ -1,10 +1,11 @@
 export class SpaceAge {
   constructor(age) {
     this.age = age;
-    this.mercuryAge = 0;
+    this.mercury = 0;
   }
 
-  mercury() {
-    
+  mercuryAge() {
+    this.mercury = this.age * 0.24;
+    return this.mercury;
     }
 }
