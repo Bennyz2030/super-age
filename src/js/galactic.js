@@ -67,4 +67,14 @@ export default class SpaceAge {
       return this.lifeExp - this.jupiter;
     }
   }
+
+  // pastExp() {
+  //   this.age = this.age;
+  //   this.lifeExp = this.lifeExp;
+  //   if (this.lifeExp < this.Age) {
+  //     return true;
+  //   } esle {
+  //     return false;
+  //   }
+  // }
 }
