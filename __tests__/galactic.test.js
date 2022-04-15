@@ -32,4 +32,8 @@ describe ('SpaceAge', ()=> {
     expect(input.mercuryExp()).toEqual(9.6);
   });
 
+  test('should determine how many years the user has left to live on Venus', ()=> {
+    expect(input.venusExp()).toEqual(24.8);
+  });
+
 });
