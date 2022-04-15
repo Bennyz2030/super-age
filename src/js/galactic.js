@@ -45,4 +45,8 @@ export class SpaceAge {
     this.lifeExp = this.lifeExp * 1.88;
     return this.lifeExp - this.mars;
   }
+
+  jupiterExp() {
+    
+  }
 }
