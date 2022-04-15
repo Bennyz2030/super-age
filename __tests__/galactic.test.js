@@ -61,5 +61,9 @@ describe ('SpaceAge', ()=> {
     expect(input.venusExp()).toEqual(24.8);
   });
 
+  test('should return the amount of years the user has lived past thier life expectency on Mars', ()=> {
+    expect(input.marsExp()).toBeCloseTo(75.2);
+  });
+
 
 });
