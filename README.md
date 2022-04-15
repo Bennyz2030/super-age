@@ -29,13 +29,12 @@ _______________________________
 * Install dependencies with the command __npm install__
 * To run locally use command __npm run start__
 * For production build use command __npm run build__
-* _Or, open in GitHub Pages [here](https://bennyz2030.github.io/super-age/)_
 ________________________________
 
 ### Known Bugs 🐛
 
 * _No known bugs._
-* _This apllications user interface is a work in progress and will not yet display the user's life expectency pn other planets_
+* _This apllications user interface is a work in progress and will not yet display the user's life expectency on other planets_
 * _If you should find any bugs open a pull request, or email me._
 __________________________________
 
