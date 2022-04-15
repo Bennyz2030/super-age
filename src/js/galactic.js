@@ -8,4 +8,8 @@ export class SpaceAge {
     this.mercury = this.age * 0.24;
     return this.mercury;
     }
+
+  venusAge() {
+    
+  }
 }

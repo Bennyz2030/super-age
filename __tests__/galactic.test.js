@@ -13,8 +13,9 @@ describe ('SpaceAge', ()=> {
     expect(input.mercury).toEqual(9.6);
   }); 
 
-  // test('should determine the users age on Venus', ()=> {
-
-  // })
+  test('should determine the users age on Venus', ()=> {
+    input.venusAge();
+    expect(input.venus).toEqual(24.8);
+  });
 
 })
