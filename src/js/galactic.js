@@ -1,4 +1,4 @@
-export class SpaceAge {
+export default class SpaceAge {
   constructor(age, lifeExp) {
     this.age = age;
     this.lifeExp = lifeExp;
@@ -34,7 +34,7 @@ export class SpaceAge {
     if (this.lifeExp < this.mercury) {
       return (this.lifeExp - this.mercury) * -1;
     } else {
-    return this.lifeExp - this.mercury;
+      return this.lifeExp - this.mercury;
     }
   }
 
@@ -44,7 +44,7 @@ export class SpaceAge {
     if (this.lifeExp < this.venus) {
       return (this.lifeExp - this.venus) * -1;
     } else {
-    return this.lifeExp - this.venus;
+      return this.lifeExp - this.venus;
     }
   }
 
@@ -54,7 +54,7 @@ export class SpaceAge {
     if (this.lifeExp < this.mars) {
       return (this.lifeExp - this.mars) * -1;
     } else {
-    return this.lifeExp - this.mars;
+      return this.lifeExp - this.mars;
     }
   }
 
@@ -64,7 +64,7 @@ export class SpaceAge {
     if (this.lifeExp < this.jupiter) {
       return (this.lifeExp - this.jupiter) * -1;
     } else {
-    return this.lifeExp - this.jupiter;
+      return this.lifeExp - this.jupiter;
     }
   }
 }
