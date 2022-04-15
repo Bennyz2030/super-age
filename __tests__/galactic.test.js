@@ -41,7 +41,7 @@ describe ('SpaceAge', ()=> {
   });
 
   test('should determine how many years the user has left to live on Jupiter', ()=> {
-    expect(input.jupterExp()).toBeCloseTo(474.4);
+    expect(input.jupiterExp()).toBeCloseTo(474.4);
   });
 
 });
