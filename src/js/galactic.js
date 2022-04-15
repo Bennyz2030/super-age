@@ -2,31 +2,31 @@ export default class SpaceAge {
   constructor(age, lifeExp) {
     this.age = age;
     this.lifeExp = lifeExp;
-    this.mercury = 0;
-    this.venus = 0;
-    this.mars = 0;
-    this.jupiter = 0;
+    this.mercury = (this.age * 0.24);
+    this.venus = (this.age * 0.62);
+    this.mars = (this.age * 1.88);
+    this.jupiter = (this.age * 11.86);
   }
 
-  mercuryAge() {
-    this.mercury = this.age * 0.24;
-    return this.mercury;
-  }
+  // mercuryAge() {
+  //   this.mercury = this.age * 0.24;
+  //   return this.mercury;
+  // }
 
-  venusAge() {
-    this.venus = this.age * 0.62;
-    return this.venus;
-  }
+  // venusAge() {
+  //   this.venus = this.age * 0.62;
+  //   return this.venus;
+  // }
 
-  marsAge() {
-    this.mars = this.age * 1.88;
-    return this.mars;
-  }
+  // marsAge() {
+  //   this.mars = this.age * 1.88;
+  //   return this.mars;
+  // }
 
-  jupiterAge() {
-    this.jupiter = this.age * 11.86;
-    return this.jupiter;
-  }
+  // jupiterAge() {
+  //   this.jupiter = this.age * 11.86;
+  //   return this.jupiter;
+  // }
 
   mercuryExp() {
     this.mercury = this.age * 0.24;
@@ -67,14 +67,4 @@ export default class SpaceAge {
       return this.lifeExp - this.jupiter;
     }
   }
-
-  // pastExp() {
-  //   this.age = this.age;
-  //   this.lifeExp = this.lifeExp;
-  //   if (this.lifeExp < this.Age) {
-  //     return true;
-  //   } esle {
-  //     return false;
-  //   }
-  // }
 }
