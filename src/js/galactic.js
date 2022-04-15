@@ -51,7 +51,11 @@ export class SpaceAge {
   marsExp() {
     this.mars = this.age * 1.88;
     this.lifeExp = this.lifeExp * 1.88;
+    if (this.lifeExp < this.mars) {
+      return (this.lifeExp - this.mars) * -1;
+    } else {
     return this.lifeExp - this.mars;
+    }
   }
 
   jupiterExp() {
