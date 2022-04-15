@@ -20,7 +20,7 @@ describe ('SpaceAge', ()=> {
 
   test('should determine the users age on Mars', ()=> {
     input.marsAge();
-    expect(input.mars).toEqual(75.2);
+    expect(input.mars).toBeCloseTo(75.2);
   });
 
-})
+});
