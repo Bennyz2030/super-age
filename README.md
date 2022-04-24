@@ -20,6 +20,7 @@ _____________________________
 * eslint
 * babel transpiler
 * Jest testing
+* Node
 _______________________________
 
 ### Installation Instructions 🖊️
@@ -27,14 +28,13 @@ _______________________________
 * Open your terminal or console and use the command __git clone__ with this repository link: https://github.com/Bennyz2030/super-age
 * Enter the new directory with the command __cd super-age__
 * Install dependencies with the command __npm install__
-* To run locally use command __npm run start__
 * For production build use command __npm run build__
+* Run tests with the command __npm test__
 ________________________________
 
 ### Known Bugs 🐛
 
-* _No known bugs._
-* _This apllications user interface is a work in progress and will not yet display the user's life expectency on other planets_
+* _This apllications is a work in progress and does not yet have a user interface_
 * _If you should find any bugs open a pull request, or email me._
 __________________________________
 
